@@ -267,7 +267,29 @@ The application displays:
 
 The selected account type remains available after device rotation and supported Activity recreation.
 
-## 13. Advantages
+
+
+## 13. Application Screenshots
+
+The following screenshots show the Banking Account Screen in portrait and landscape orientations, including the selected account types.
+
+### Portrait Mode – Savings Account Selected
+
+![Portrait Mode – Savings Account Selected](screenshots/01-portrait-savings.png)
+
+### Landscape Mode – Savings Account Selected
+
+![Landscape Mode – Savings Account Selected](screenshots/02-landscape-savings.png)
+
+### Portrait Mode – Current Account Selected
+
+![Portrait Mode – Current Account Selected](screenshots/03-portrait-current.png)
+
+### Landscape Mode – Current Account Selected
+
+![Landscape Mode – Current Account Selected](screenshots/04-landscape-current.png)
+
+## 14. Advantages
 
 - Simple and user-friendly interface.
 - Proper separation of UI and business logic.
@@ -276,7 +298,7 @@ The selected account type remains available after device rotation and supported 
 - Responsive design for different orientations.
 - Uses modern Android development practices.
 
-## 14. Limitations
+## 15. Limitations
 
 - The account number is currently sample data.
 - The application does not connect to an actual banking server.
@@ -284,7 +306,7 @@ The selected account type remains available after device rotation and supported 
 - SavedStateHandle is intended for small UI state values and does not replace permanent database storage.
 - State restoration depends on Android's saved-state mechanism and is not intended to guarantee persistence after every possible app termination scenario.
 
-## 15. Conclusion
+## 16. Conclusion
 
 This project successfully demonstrates the implementation of a Banking Account Screen using Kotlin, Jetpack Compose, ViewModel, StateFlow, and SavedStateHandle.
 
